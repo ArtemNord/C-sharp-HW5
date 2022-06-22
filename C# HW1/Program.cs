@@ -15,6 +15,7 @@ int [] arr = CreatArray();
 
 // Console.WriteLine("Укажите длину массива: ");
 // int number = Convert.ToInt32(Console.ReadLine());
+
 Console.WriteLine();
 void PrintEvenNumbers(int [] array)
 {
