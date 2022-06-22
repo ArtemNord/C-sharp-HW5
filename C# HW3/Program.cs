@@ -14,7 +14,7 @@ int [] CreatArray()
 int [] arr = CreatArray();
 Console.WriteLine();
 
-void PrintMaxAndMinArrayElements(int [] array)
+void PrintMaxAndMinArrayElementsAndDifference(int [] array)
 {
     int max = array[0];
     int min = array[0];
@@ -35,7 +35,9 @@ void PrintMaxAndMinArrayElements(int [] array)
     Console.WriteLine($"Max = {max}");
     Console.WriteLine($"Min = {min}");
 
-    
+    int Difference = max - min;
+    Console.WriteLine($"Difference = {Difference}");
+
 }
 
-PrintMaxAndMinArrayElements(arr);
+PrintMaxAndMinArrayElementsAndDifference(arr);
